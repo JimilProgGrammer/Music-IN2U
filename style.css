@@ -1,0 +1,68 @@
+body {
+    margin:0;
+    padding: 0;
+    background: #C9C9C9;
+    font-family: 'Josefin Sans',sans-serif;
+	background-repeat: no-repeat; 
+	background-size: cover; 
+	background-size: 100%; 
+	background-position: center;
+	background-image: url("images/guitar.jpg")
+}
+.loginBox {
+    position: absolute;
+    top: 50%;
+	border-style: groove;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 350px;
+    height: 420px;
+    padding: 80px 40px;
+    box-sizing: border-box;
+    box-shadow: 10px 10px 5px darkgrey;
+	border-radius: 20px;
+}
+h2 {
+    margin: 0;
+    padding: 0 0 20px;
+    color: beige;
+    text-align: center;
+}
+.loginBox p {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+	font-size: 20px;
+    color: #2F4F4F;
+}
+.loginBox input {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.loginBox input[type="email"],
+.loginBox input[type="password"] {
+    border: none;
+    border-bottom: 1px solid darkgrey;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: darkslategrey;
+    font-size: 16px;
+}
+::placeholder {
+    color: rgba(255,255,255,.5);
+}
+.loginBox input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    color: beige;
+    font-size: 16px;
+    background: #b71540;
+    cursor: pointer;
+    border-radius: 20px;
+	box-shadow: 10px 10px 5px darkgrey;
+}
+.loginBox input[type="submit"]:hover,focus {
+    background: darkgrey;
+}
